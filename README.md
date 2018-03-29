@@ -42,7 +42,7 @@ Then, before we begin working on the React app, we will need to create a project
 
 Follow the tutorial for detailed step-by-step guide.
 
-[LINK TO TUTORIAL]
+[LINK TO TUTORIAL COMING SOON]
 
 ## Preview
 
