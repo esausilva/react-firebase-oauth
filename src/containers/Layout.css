@@ -1,0 +1,29 @@
+section {
+  display: grid;
+  grid-template-columns: 1fr minmax(360px, 991px) 1fr;
+  grid-template-areas: '. h .' '. c .' '. f .';
+  grid-gap: 5px;
+  margin-top: 20px;
+}
+
+header {
+  grid-area: h;
+  text-align: center;
+}
+
+main {
+  grid-area: c;
+}
+
+main.content-center {
+  display: grid;
+  justify-items: center;
+}
+
+footer {
+  grid-area: f;
+  display: grid;
+  justify-items: end;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  margin-top: 20px;
+}

@@ -1,0 +1,25 @@
+button {
+  border: none;
+  border-radius: 4px;
+  height: 45px;
+  background-color: #aaaaaa;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  letter-spacing: 0.07rem;
+  padding: 3px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #929292;
+}
+
+.hidden {
+  display: none;
+}
+
+.text--center {
+  text-align: center;
+}

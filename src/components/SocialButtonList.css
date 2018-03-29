@@ -1,0 +1,33 @@
+.btn__social--list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn__social {
+  width: 150px;
+}
+
+.btn--github {
+  background-color: #1b1c1d;
+}
+
+.btn--github:hover {
+  background-color: #232425;
+}
+
+.btn--twitter {
+  background-color: #55acee;
+}
+
+.btn--twitter:hover {
+  background-color: rgb(67, 158, 228);
+}
+
+.btn--facebook {
+  background-color: #3b5998;
+}
+
+.btn--facebook:hover {
+  background-color: rgb(45, 77, 146);
+}

@@ -1,0 +1,10 @@
+.btn__logout {
+  width: 70px;
+  height: 33px;
+  font-size: 0.7rem;
+  background-color: rgb(172, 43, 43);
+}
+
+.btn__logout:hover {
+  background-color: rgb(197, 63, 63);
+}

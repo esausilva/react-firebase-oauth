@@ -1,0 +1,32 @@
+.btn__profiles--list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container__profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.container__profile--photo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.container__profile--btn {
+  font-size: 0.65rem;
+  width: 80px;
+  height: 28px;
+  background-color: transparent;
+  border: 1px solid red;
+  color: red;
+}
+
+.container__profile--btn:hover {
+  background-color: red;
+  color: white;
+}
