@@ -1,19 +1,23 @@
 {
   "name": "react-firebase-oauth",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "author": "Esau Silva <esausilva85@gmail.com>",
   "license": "MIT",
-  "engines": {
-    "node": "9.11.2"
-  },
   "scripts": {
-    "dev:client": "cd client && yarn start",
-    "dev:server": "cd client && yarn build && cd .. && yarn start",
-    "start": "node server.js",
-    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+    "setup": "node setup.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "firebase": "^4.13.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.1",
+    "react-delay": "^0.1.0",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
   },
   "repository": {
     "type": "git",

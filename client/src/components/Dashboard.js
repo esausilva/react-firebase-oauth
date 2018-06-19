@@ -14,9 +14,9 @@ class Dashboard extends Component {
     providerData: PropTypes.arrayOf(PropTypes.object).isRequired
   };
 
-  static defaultProps = {
-    providerData: []
-  };
+  // static defaultProps = {
+  //   providerData: []
+  // };
 
   state = {
     buttonList: buttonList,
@@ -49,7 +49,7 @@ class Dashboard extends Component {
    * Unlinks a provider and if there are no more providers associated
    * with the account, delete the user account from Firebase
    */
-  handleUnliknedProvider = (providerName, providerData) => {
+  handleUnlinkedProvider = (providerName, providerData) => {
     if (providerData.length < 1) {
       auth
         .getAuth()
@@ -79,7 +79,7 @@ class Dashboard extends Component {
         <SocialProfileList
           auth={auth.getAuth}
           providerData={this.state.providerData}
-          unlinkedProvider={this.handleUnliknedProvider}
+          unlinkedProvider={this.handleUnlinkedProvider}
         />
         <p style={{ textAlign: 'center' }}>
           <strong>Connect Other Social Accounts</strong>
