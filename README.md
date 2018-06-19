@@ -12,33 +12,46 @@ $ npm install -g create-react-app
 
 ## Usage
 
-Install dependencies
+**Install dependencies**
 
 ```
 $ yarn
+$ cd client
+$ yarn
+$ cd ..
 ```
 
-Run development server
+**Run development server**
+
+- From root directory
+
+```
+$ yarn dev:client
+```
+
+- From client directory
 
 ```
 $ yarn start
 ```
 
-Production
+**Production**
 
 ```
-$ yarn build
+$ dev:server
 ```
+
+This will create the production build and Node will serve the app, then you can visit http://localhost:5000/
 
 ## Setup
 
 First create the required `.env` file, run
 
 ```
-$ yarn setup
+$ cd client && yarn setup
 ```
 
-Then, before we begin working on the React app, we will need to create a project in Firebase, then setup new apps on GitHub, Twitter and Facebook.
+Before we begin working on the React app, we will need to create a project in Firebase, then setup new apps on GitHub, Twitter and Facebook.
 
 Follow the tutorial for detailed step-by-step guide.
 
