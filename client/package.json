@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "firebase": "^4.13.1",
-    "prop-types": "^15.6.1",
+    "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-delay": "^0.1.0",
     "react-dom": "^16.4.1",
