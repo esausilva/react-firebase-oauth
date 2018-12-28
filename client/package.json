@@ -1,7 +1,7 @@
 {
   "name": "react-firebase-oauth",
   "version": "0.1.0",
-  "author": "Esau Silva <esausilva85@gmail.com>",
+  "author": "Esau Silva <@_esausilva>",
   "license": "MIT",
   "scripts": {
     "setup": "node setup.js",
@@ -11,11 +11,11 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "firebase": "^5.5.2",
+    "firebase": "^5.7.2",
     "prop-types": "^15.6.2",
-    "react": "^16.5.2",
+    "react": "^16.7.0",
     "react-delay": "^0.1.0",
-    "react-dom": "^16.5.2",
+    "react-dom": "^16.7.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },
