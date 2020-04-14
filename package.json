@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "author": "Esau Silva <@_esausilva>",
   "license": "MIT",
-  "engines": {
-    "node": "9.11.2"
-  },
   "scripts": {
     "dev:client": "cd client && yarn start",
     "dev:server": "cd client && yarn build && cd .. && yarn start",
@@ -13,7 +10,7 @@
     "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.1"
   },
   "repository": {
     "type": "git",
