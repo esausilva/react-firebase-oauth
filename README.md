@@ -55,7 +55,7 @@ Before we begin working on the React app, we will need to create a project in Fi
 
 Follow the tutorial for detailed step-by-step guide.
 
-[https://blog.bitsrc.io/react-oauth-authentication-with-firebase-dfe0e8c5d0d4](https://blog.bitsrc.io/react-oauth-authentication-with-firebase-dfe0e8c5d0d4)
+[https://esausilva.com/2018/08/13/react-oauth-authentication-with-firebase-tutorial/](https://esausilva.com/2018/08/13/react-oauth-authentication-with-firebase-tutorial/)
 
 ## Preview
 
@@ -68,4 +68,3 @@ If you would like to support my work and the time I put in making tutorials, you
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/esausilva)
 
 -Esau
-
